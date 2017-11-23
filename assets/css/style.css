@@ -1,3 +1,37 @@
-p {
-	color: red;
+
+#pages {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	padding-top: 8px;
+}
+#crop1 {
+	width: 100%;
+}
+.buttonDiv {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	margin-bottom: 200px;
+}
+button {
+	width: 75px;
+	height: 75px;
+	color: orange;
+	font-size: 1.5rem;
+}
+button:hover{
+	color: white;
+	width: 80px;
+}
+.next {
+	position: absolute;
+	left: 80%;
+	}
+#crop2 {
+	width: 100%;
+}
+.back {
+	position: absolute;
+	left: 10%
 }
