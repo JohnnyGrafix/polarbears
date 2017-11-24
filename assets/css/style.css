@@ -1,11 +1,14 @@
-
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
 #pages {
 	position: relative;
 	width: 100%;
 	max-width: 600px;
 	padding-top: 8px;
 }
-#crop1 {
+.main {
 	width: 100%;
 }
 .buttonDiv {
@@ -14,24 +17,20 @@
 	max-width: 600px;
 	margin-bottom: 200px;
 }
-button {
-	width: 75px;
-	height: 75px;
-	color: orange;
-	font-size: 1.5rem;
-}
-button:hover{
-	color: white;
-	width: 80px;
-}
 .next {
 	position: absolute;
+	width: 15%;
 	left: 80%;
 	}
-#crop2 {
-	width: 100%;
+.next:hover {
+	width: 16%;
 }
 .back {
 	position: absolute;
-	left: 10%
+	width: 15%;
+	left: 7%;
 }
+.back:hover {
+	width: 16%;
+}
+
